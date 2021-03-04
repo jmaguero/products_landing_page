@@ -40,11 +40,6 @@ h5 {font-size: 1.414rem !important;}
 
 small, .text_small {font-size: 0.707rem !important;}
 
-/* h1, h2,h3,h4,h5,h6,p {
-color: darkslategrey !important;
-z-index: 1;
-} */
-
 
 i  {
   color:rgba(248, 120, 0, 0.801) !important;
@@ -54,11 +49,6 @@ button {
   background-color: #f89232 !important;
   color: rgba(250, 250, 240, 0.986) !important;
 }
-
-/* input {
-  color: rgba(250, 250, 240, 0.986) !important;
-} */
-
 
 /* Subscribe Section */
 
