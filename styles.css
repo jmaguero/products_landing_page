@@ -1,46 +1,93 @@
-.navbar-brand {
-  font-family: "Rubik", sans-serif;
-  color: rgb(11, 105, 11);
-  font-size: 3.5em;
-  font-weight: 1000;
+@import url('https://fonts.googleapis.com/css?family=Righteous:400');
+
+html {font-size: 100%;} /*16px*/
+
+
+body {
+  background: white !important;
+  font-family: 'Righteous', sans-serif !important;
+  font-weight: 300 !important;
+  color: rgba(25, 109, 0, 0.979) !important;
 }
 
+a {
+  color:rgba(248, 120, 0, 0.801) !important;
+}
+
+p {margin-bottom: 1rem !important;}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Righteous', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+h1 {
+  margin-top: 0 !important;
+  font-size: 5.653rem !important;
+}
+
+h2 {font-size: 3.998rem !important;}
+
+h3 {font-size: 2.827rem !important;}
+
+h4 {font-size: 1.999rem !important;}
+
+h5 {font-size: 1.414rem !important;}
+
+small, .text_small {font-size: 0.707rem !important;}
+
 /* h1, h2,h3,h4,h5,h6,p {
-color: darkslategrey;
+color: darkslategrey !important;
 z-index: 1;
 } */
 
+
 i  {
-  color: #568834;
+  color:rgba(248, 120, 0, 0.801) !important;
 } 
+
+button {
+  background-color: #f89232 !important;
+  color: rgba(250, 250, 240, 0.986) !important;
+}
+
+/* input {
+  color: rgba(250, 250, 240, 0.986) !important;
+} */
 
 
 /* Subscribe Section */
 
 #subscribe {
-  background-image: url("./subscribe2.jpg");
+  background-image: url("./subscribe4.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  background-size: 100%;
-  color: rgb(39, 37, 37);
-  font-weight: 900;
-  
 }
 
 .subs-row {
-  background-color: rgba(255, 255, 255, 0.9 )
+  background-color: rgba(250, 250, 240, 0.911)
 }
 
 /* Why section */
 
 #cards-adv {
+  height: 20rem;
 
-  height: 20em;
 }
 
  #btn-pricing {
 
-  width: 7em;
+  width: 7rem;
 
 
-} 
+}
+
+#bsktSm {
+  height: 5rem;
+}
+#bsktMd {
+  height: 7.5rem;
+}
+#bsktBg {
+  height: 10rem;
+}
