@@ -50,6 +50,12 @@ button {
   color: rgba(250, 250, 240, 0.986) !important;
 }
 
+/* Background from cards */ 
+
+.bg-light-yellow {
+  background-color: rgba(250, 250, 240, 0.911);
+}
+
 /* Subscribe Section */
 
 #subscribe {
@@ -65,8 +71,9 @@ button {
 
 /* Why section */
 
-#cards-adv {
+.cards-adv {
   min-height: 20rem;
+  background-color: rgba(255, 255, 255, 0.979) !important;
 
 }
 
