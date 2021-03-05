@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous:400');
 
-html {font-size: 100%;} /*16px*/
+html {
+  font-size: 100%;
+} /*16px*/
 
 
 body {
@@ -11,34 +13,32 @@ body {
 }
 
 footer {
-  background-color: rgba(250, 250, 240, 0.911)
+  background-color: rgba(250, 250, 240, 0.911) !important;
 }
 
 a {
   color:rgba(248, 120, 0, 0.801) !important;
 }
 
-p {margin-bottom: 1rem !important;}
-
 h1, h2, h3, h4, h5 {
   font-family: 'Righteous', sans-serif !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
 }
 
 h1 {
-  margin-top: 0 !important;
-  font-size: 5.653rem !important;
+  font-size: 4.209rem !important;
 }
 
-h2 {font-size: 3.998rem !important;}
+h2 {font-size: 3.157rem !important;}
 
-h3 {font-size: 2.827rem !important;}
+h3 {font-size: 2.369rem !important;}
 
-h4 {font-size: 1.999rem !important;}
+h4 {font-size: 1.777rem !important;}
 
-h5 {font-size: 1.414rem !important;}
+h5 {font-size: 1.333rem !important;}
 
-small, .text_small {font-size: 0.707rem !important;}
+small, .text_small {font-size: 0.75rem !important;}
+
 
 
 i  {
@@ -59,13 +59,14 @@ button {
 }
 
 .subs-row {
-  background-color: rgba(250, 250, 240, 0.911)
+  background-color: rgba(250, 250, 240, 0.911);
+  width: auto;
 }
 
 /* Why section */
 
 #cards-adv {
-  height: 20rem;
+  min-height: 20rem;
 
 }
 
